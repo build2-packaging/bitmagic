@@ -1,0 +1,3 @@
+# libbitmagic
+
+C++ library

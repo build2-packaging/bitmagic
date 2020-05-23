@@ -1,0 +1,18 @@
+: benchmark-run
+$* >>EOO != 0
+Assigned suppliers to Big10:50000
+Suppliers per minor nation: 263
+Nations suppliers index size = 200
+Assigned customers to Big10:750000
+Customers per minor nation: 3947
+Nations customers index size = 200
+1490000/1500000 
+Orders count = 7500000
+Orders customers index size = 1500000
+Orders customers index mem.size = 38676717
+7400000      
+Lineitems count = 23575908
+Lineitems shipdate index size = 3663
+Lineitems supplier index size = 100000
+Lineitems order index size = 7500000
+EOO

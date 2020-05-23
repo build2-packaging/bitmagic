@@ -1,0 +1,6 @@
+$out_root/
+{
+  include libbitmagic/
+}
+
+export $out_root/libbitmagic/$import.target

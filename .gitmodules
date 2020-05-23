@@ -1,0 +1,4 @@
+[submodule "upstream"]
+	path = upstream
+	url = https://github.com/tlk00/BitMagic.git
+	branch = bm-6.4.0
