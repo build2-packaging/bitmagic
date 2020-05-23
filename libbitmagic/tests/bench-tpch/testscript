@@ -1,5 +1,5 @@
 : benchmark-run
-$* >>EOO != 0
+$* >>EOO
 Assigned suppliers to Big10:50000
 Suppliers per minor nation: 263
 Nations suppliers index size = 200
