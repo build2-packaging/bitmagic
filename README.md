@@ -19,7 +19,6 @@ i took the liberty to modify the `bmrandom.h` header because of the usage of
 
   - depending on yourr compile settings you might need to silcence some warnings
     before including the bitmagic headers.
-  - the `tests/bench-tpch/driver` has a very long runtime
   - you have to supply compile directives like `-mavx2` yourself
       - please have a look at the `BitMagic` documentation
 

@@ -1,5 +1,7 @@
 import libs = libbitmagic%lib{bitmagic}
 
-exe{driver}: {hxx ixx txx cxx}{**} $libs testscript{**}
+./:
+
+exe{driver}: {hxx ixx txx cxx}{**} $libs testscript
 
 cxx.poptions = "-Wno-unused"
