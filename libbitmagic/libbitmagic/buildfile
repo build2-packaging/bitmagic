@@ -17,6 +17,13 @@ hxx{version}: in{version} $src_root/manifest
 #
 cxx.poptions =+ "-I$out_root" "-I$src_root" "-I$src_base"
 
+if ($cxx.target.system != 'win32-msvc')
+{
+  cxx.libs += -pthread
+
+  lib{bitmagic}: cxx.export.libs += -pthread
+}
+
 # export options.
 #
 lib{bitmagic}:

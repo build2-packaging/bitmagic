@@ -1,7 +1,0 @@
-: smoke-run
-$* >>~/EOO/
-/BitCount: Sparse bitset  ;.+/
-/BitCount: GAP Sparse bitset ;.+/
-/count_to: GAP Sparse bitset ;.+/
-/TOTAL ;.+/
-EOO
