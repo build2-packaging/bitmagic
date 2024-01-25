@@ -1,11 +1,11 @@
 : 1
 name: libbitmagic
-version: 6.4.0-a.0.z
+version: 7.13.4
 project: bitmagic
 summary: bitmagic cxx library
-license: license: ASLv2, extra conditions; Apache License v2.0 with extra acknowledgement conditions
+license: other: Apache-2.0 with extra attribution requirements
 description-file: README.md
 url: http://bitmagic.io
 email: mb@64k.by
-depends: * build2 >= 0.12.0
-depends: * bpkg >= 0.12.0
+depends: * build2 >= 0.16.0
+depends: * bpkg >= 0.16.0
