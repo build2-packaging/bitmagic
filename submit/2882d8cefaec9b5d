@@ -1,0 +1,6 @@
+: 1
+name: libbitmagic
+version: 7.13.4
+project: bitmagic
+summary: bitmagic cxx library
+license: other: Apache-2.0 with extra attribution requirements
